@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Courier New", monospace;
+  background: #020617;
+  color: #e2e8f0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: #000814;
+  padding: 20px;
+  border-right: 1px solid #1e293b;
+}
+
+.tree p {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.tree a {
+  display: block;
+  text-decoration: none;
+  color: #94a3b8;
+  margin: 10px 0;
+}
+
+.tree a:hover {
+  color: #38bdf8;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+h1 { color: #38bdf8; }
